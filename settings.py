@@ -1,0 +1,21 @@
+import pygame
+
+IS_FULLSCREEN = True
+SCREEN_WIDTH, SCREEN_HEIGHT = 1280, 720
+
+FPS = 60
+TILE_SIZE = 40
+
+GRAVITY = 0.5
+MAX_FALL_SPEED = 12
+
+COLORS = {
+    "LIGHT_BG": (230, 240, 255),
+    "LIGHT_PLATFORM": (50, 150, 255),
+
+    "SHADOW_BG": (20, 10, 30),
+    "SHADOW_PLATFORM": (180, 50, 255),
+
+    "PLAYER": (255, 100, 100),
+    "STATIC": (100, 100, 100)
+}
